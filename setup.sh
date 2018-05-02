@@ -42,7 +42,9 @@ echo y | cp passwd-s3fs /etc
 #Set s3fs as an init.d service
 chmod +x s3fs.d
 rm -rf /etc/init.d/s3fsMounts /etc/init.d/s3fs
-cp s3fsMounts /etc/init.d/s3fsMounts
+
+#install required unix files directly
+echo y|cp -rf linux/* /
 cp s3fs.d /etc/init.d/s3fs
 
 chkconfig s3fs on
