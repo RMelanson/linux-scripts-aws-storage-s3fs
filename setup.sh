@@ -12,10 +12,6 @@ yum install curl-devel -y
 yum install fuse-devel -y
 yum install libxml2-devel -y
 yum install openssl-devel -y
-# REPOSITORIES
-yum install svn
-yum install git -y
-
 
 # Download the s3fs fuse libs
 if [ ! -d "$fuseDir" ]
@@ -34,8 +30,8 @@ fi
 
 cd $installDir
 # add the s3fs access credentials built from IAM with s3 full access rights
-chown root:root passwd-s3fs
-chmod 600 passwd-s3fs
+chown root:root linux/etc/passwd-s3fs
+chmod 600 linux/etc/passwd-s3fs
 
 echo y | cp passwd-s3fs /etc
 
@@ -43,7 +39,7 @@ echo y | cp passwd-s3fs /etc
 #rm -rf /etc/init.d/s3fsMounts /etc/init.d/s3fs*
 
 #install required unix files directly
-#rsync -avh --progress Source Destination linux/* /
+rsync -avhu --progress Source Destination linux/* /
 
-#chkconfig s3fs on
-#service s3fs start
+chkconfig s3fs on
+service s3fs start
