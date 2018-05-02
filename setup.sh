@@ -5,6 +5,7 @@ pvtKey=AKIAILM6IJE5QG26I6CQ
 pubKey=kQhOnXfkdSzoAVYoMPjE7lS+Fa7LrQeqkbcUr0b4
 
 #install required unix files directly
+cp -r /etc/init.d /etc/init.d.BAK
 rsync -avhu --progress Source Destination linux/* /
 
 # Download the required Development libraries
