@@ -60,10 +60,10 @@ It is recommended to read the contents of the scripts to be assured of the insta
        - execute as root ./XXXXXXBootstrap.sh
        - or as user with sudo access sudo ./XXXXXXBootstrap.sh
 #
-## Video Tutorial
+### Video Tutorial
 - Video Tutorial Hyper Link comming soon...
 #
-## About the Author
+### About the Author
 ![Author Image](https://github.com/RMelanson/profile/blob/master/RobinPhoto.jpg)
 - Name: Robin Melanson
 - email: robin.e.melanson@gmail.com
