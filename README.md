@@ -20,7 +20,6 @@ You're sections headers will be used to reference location of destination.
 - There may not be an associated uninstal script, so uninstalling is the owners responsibility.
 - It is recommended to be installed on a test system in a test environment before promoting to a production environment.
 ## <b>**Install at your own Risk</b>
-#
 ### Repository
 - https://github.com/RMelanson/XXXXXXXXXXXXX-bootstraps.git
 #
