@@ -1,4 +1,4 @@
-# Package linux-aws-scripts-utils-s3fs<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/boot1.jpg" width="6%" align= "right">
+# Package linux-aws-scripts-utils-s3fs<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/hardDrive.png" width="6%" align= "right">
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
 
@@ -19,7 +19,7 @@ You're sections headers will be used to reference location of destination.
 - The user is free to modify the code as required. 
 - There may not be an associated uninstal script, so uninstalling is the owners responsibility.
 - It is recommended to be installed on a test system in a test environment before promoting to a production environment.
-## <b>**Install at your own Risk</b><img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/caution.jfif" width="6%" align= "right">
+## <b>**Install at your own Risk</b><img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/caution.png" width="6%" align= "right">
 ### Repository
 - https://github.com/RMelanson/XXXXXXXXXXXXX-bootstraps.git
 #
