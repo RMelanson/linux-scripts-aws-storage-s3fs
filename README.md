@@ -26,23 +26,23 @@ You're sections headers will be used to reference location of destination.
 ### About<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/aboutMickey.png" width="6%" align= "right">
 - Version: 1.0.0
 - Release Date: May 06 2018
-- Purpose: XXXXXXBootstrap.sh is a simplified installation package for ...
-- Description: XXXXXXBootstrap.sh is a  bootstrap utility for downloading and installing .... XXXXXXXXX.sh may be installed as a bootstrap or after the Linux system has been launched. 
-- The XXXXXXBootstrap.sh is used to download ??????? from the git repository for ...
+- Purpose: s3fsBootstrap.sh is a simplified installation package for ...
+- Description: s3fsBootstrap.sh is a  bootstrap utility for downloading and installing .... XXXXXXXXX.sh may be installed as a bootstrap or after the Linux system has been launched. 
+- The s3fsBootstrap.sh is used to download ??????? from the git repository for ...
 #
 ### Installation<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/installation.png" width="6%" align= "right">
-- Execute the XXXXXXBootstrap.sh*, upon installation of a new Linux installation as a bootstrap or as a stand alone bash script. If executing the script manually on a Linux O.S. after downloading from the git repository, be sure to:
-  - execute as root ./XXXXXXBootstrap.sh
-  - or as user with sudo access sudo ./XXXXXXBootstrap.sh
+- Execute the s3fsBootstrap.sh*, upon installation of a new Linux installation as a bootstrap or as a stand alone bash script. If executing the script manually on a Linux O.S. after downloading from the git repository, be sure to:
+  - execute as root ./s3fsBootstrap.sh
+  - or as user with sudo access sudo ./s3fsBootstrap.sh
 - *Notes: 
     - All script installation packages are installed under /tmp/scripts/???/???/??? directory and may be analyzed in that directory.
-    - You may modify the script installation file (XXXXXXBootstrap.sh) to change the directory package installation location.
+    - You may modify the script installation file (s3fsBootstrap.sh) to change the directory package installation location.
     - Upon Completion of installation, the installation directory and all contents may be removed.
 #
 ### Contents <img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/contents.png" width="6%" align= "right">
 
 - README.md ~ Readme file
-- xxxxxBootstrap.sh  ~ Installs the package
+- s3fsBootstrap.sh  ~ Installs the package
 - setup.sh - is the master setup file for package installation and may be run directly as root ./setup.sh
        - or as user with sudo access sudo ./setupBootstrap.sh
 -
