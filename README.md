@@ -11,7 +11,7 @@ You're sections headers will be used to reference location of destination.
 - [Video Tutorial](#Video-Tutoria)
 - [About the Author](#About-the-Author)
 #
-### <b>Package XXXXXX CopyRight** ©</b> <img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/policeman.png" width="5%" align= "right">
+### <b>Package linux-aws-scripts-utils-s3fs CopyRight** ©</b> <img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/policeman.png" width="5%" align= "right">
 
 - This program is free for re-distribution provided this copyright/license header is left in place.  
 - There is no warranty or guaranty of any kind in any way and is not assured to be as required and may not work exactly as designed for all os systems operating various potentially conflicting software.  
@@ -21,7 +21,7 @@ You're sections headers will be used to reference location of destination.
 - It is recommended to be installed on a test system in a test environment before promoting to a production environment.<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/caution.png" width="6%" align= "right">
 ## <b>**Install at your own Risk</b>
 ### Repository<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/repository.png" width="6%" align= "right">
-- https://github.com/RMelanson/XXXXXXXXXXXXX-bootstraps.git
+- https://github.com/RMelanson/linux-aws-scripts-utils-s3fs
 #
 ### About<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/aboutMickey.png" width="6%" align= "right">
 - Version: 1.0.0
