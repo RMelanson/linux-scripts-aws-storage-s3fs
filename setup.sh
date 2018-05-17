@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# Download the required Development libraries
+. .env/setEnv.sh
 # Download the required Development libraries
 ./installDevTools.sh
 ./installFuse.sh
