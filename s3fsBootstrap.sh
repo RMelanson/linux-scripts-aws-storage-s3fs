@@ -1,8 +1,21 @@
 #!/bin/bash
-currDir=$PWD
-s3fsDir=/tmp/scripts/apps/S3FS
-git clone https://github.com/RMelanson/linux-aws-scripts-utils-s3fs.git $s3fsDir
-cd $s3fsDir
-chmod 744 setup.sh
-./setup.sh
-cd $currDir
+
+#Set Cloning Properties
+pkg=s3fs
+gitRepo="linux-aws-scripts-utils-s3fs.git"
+installDir="/tmp/scripts/apps/S3FS"
+if [ "$1" = "ssh" ]; then
+   clone="git clone git@github.com:RMelanson/"
+else
+   clone="git clone https://github.com/RMelanson/"
+fi
+
+# Clone $pkg
+echo Executing $clone$gitRepo $installDir
+$clone$gitRepo $installDir
+
+# Setup $pkg
+cd $installDir
+. ./setup.sh
+
+cd $s3fsCurrDir
