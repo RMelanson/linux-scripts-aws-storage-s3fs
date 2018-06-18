@@ -31,6 +31,6 @@ cd $installDir
 find . -name "*.sh" -exec chmod 700 {} \;
 
 # Setup Project
-./setup.sh
+./setup 2>&1| tee setup.log
 
 cd $s3fsCurrDir
