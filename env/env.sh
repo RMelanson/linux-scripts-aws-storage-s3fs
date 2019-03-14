@@ -1,1 +1,4 @@
-# ToDo Create Environment script
+#!/bin/bash
+
+# S3FS CONFIGURATION PARAMETERS
+pkg=S3FS
