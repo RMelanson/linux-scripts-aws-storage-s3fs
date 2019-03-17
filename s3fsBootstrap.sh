@@ -12,7 +12,9 @@ yum update -y
 yum install git -y
 
 # SETUP ENVIRONMENT AND PARAMETERS
-. ./env/setEnv.sh
+pkg=S3FS
+gitRepo="linux-aws-scripts-utils-s3fs.git"
+installDir="/tmp/scripts/apps/$pkg"
 
 if [ -f ~/.ssh/gitHub.key ]; then
    clone="git clone git@github.com:RMelanson/"
