@@ -1,6 +1,6 @@
 #!/bin/bash
 bootstrapDir=$PWD
-bootstrap=$bootstrapDir/s3fsBootstrap.sh
+bootstrap=$webCurrDir/s3fsBootstrap.sh
 
 # Ensure script is running under root
 if [ "$EUID" -ne 0 ]
@@ -46,4 +46,4 @@ find . -name "*.sh" -exec chmod 700 {} \;
 # Setup Project
 ./setup.sh 2>&1| tee setup.log
 
-cd $bootstrapDir
+cd $s3fsCurrDir
