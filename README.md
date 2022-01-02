@@ -14,7 +14,6 @@ Find your way using our directory below:
  
  Name  | Key Contact
 ------------- | -------------
-Jason Antao  | jasonsantao@gmail.com
 Robin Melanson  | robin.e.melanson@gmail.com
 
  - - - -
@@ -77,12 +76,6 @@ It is recommended to read the contents of the scripts to be assured of the insta
 ![Author Image](https://github.com/RMelanson/profile/blob/master/RobinPhoto.jpg)
 - Name: Robin Melanson
 - Email: robin.e.melanson@gmail.com
-
-![Author Image](https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/Jason-320.jpg)
-- Co-Contributer 
-- Name: Jason Antao
-- email: jasonsantao@gmail.com
-- LinkedIn: www.linkedin.com/in/jason-antao
 
 [Back To The Top](#directory-of-information)
 
